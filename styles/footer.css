@@ -1,0 +1,17 @@
+.footer {
+  border-top: 1px solid #ffffff;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a2024;
+}
+
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+}
+
+.company-info {
+  list-style: none;
+}

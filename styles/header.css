@@ -1,0 +1,82 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  font-weight: 600;
+}
+
+.header-content {
+  display: flex;
+  position: relative;
+}
+
+.start-panel {
+  margin-top: 104px;
+  /* border: 1px solid red; */
+}
+
+.title {
+  font-size: 50px;
+}
+
+.about {
+  font-size: 18px;
+  text-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 60px;   
+}
+
+.search-form {
+  width: 497px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #1a2024;
+}
+
+.search-form .search-bar {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 8px;
+  background: transparent;
+  color: var(--text-color);
+}
+
+.search-bar::placeholder {
+  color: var(--text-color);
+}
+
+.socials {
+  display: flex;
+  margin-top: 110px;
+  /* border: 1px solid red; */
+  gap: 20px;
+}

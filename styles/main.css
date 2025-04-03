@@ -1,0 +1,76 @@
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.tools-head {
+  text-align: center;
+} 
+
+.tools-list {
+  display: flex;
+  gap: 23px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
+
+.tools-item {
+  max-width: 392px;
+  width: 100%;
+  padding: 24px;
+}
+
+.tools-item:hover {
+  transform: translateY(-5px);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  background-image: url(../assets/Rectangle\ 5.png);
+}
+
+.tool-name {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.more-btn {
+  display: block;
+  margin: auto;
+}
+
+.partners {
+  width: 1224px;
+  height: 253px;
+  border-radius: 25px;
+  background-image: url(../assets/Rectangle\ 308.png);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  padding: 30px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.partners-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.partners-icons {
+  display: flex;
+  gap: 107px;
+  justify-content: space-evenly;
+}
